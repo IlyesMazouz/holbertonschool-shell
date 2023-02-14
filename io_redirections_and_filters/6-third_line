@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n "" iacta | grep "^3:" | cut -d: -f2-
+cat ./iacta | head n- 3 iacta | tail -n 1
